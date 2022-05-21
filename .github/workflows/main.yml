@@ -6,7 +6,7 @@ name: Flutter CI/CD
 # Controls when the workflow will run
 on: [push]
 jobs:
-  test:
+  flutter_test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
